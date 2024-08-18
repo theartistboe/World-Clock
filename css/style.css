@@ -10,7 +10,7 @@ h2 {
 }
 
 body {
-    background-color: #DFFFE7;
+    background: radial-gradient(circle at 10% 20%, rgb(161, 255, 206) 0%, rgb(250, 255, 209) 90%);
     font-family: sans-serif;
 }
 
