@@ -6,51 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>Boe's World Clock</title>
 </head>
 
 <body>
     <div class="container">
         <h1>Boe's World Clock</h1>
-        <select>
+        <select id="city">
             <option value="">Select a city</option>
-            <option value="">Modesto</option>
-            <option value="">Merced</option>
-            <option value="">Fresno</option>
+            <option value="America/Los_Angeles">Los Angeles</option>
+            <option value="US/Hawaii">Hawaii</option>
+            <option value="America/Louisville">Louisville</option>
         </select>
-
-        <div class="city" id="turlock">
-            <div>
-                <h2>Turlock ☀️</h2>
-                <div class="date"></div>
+        <div id="cities">
+            <div class="city" id="turlock">
+                <div>
+                    <h2>Turlock ☀️</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
             </div>
-            <div class="time"></div>
-        </div>
-        <div class="city" id="newyork">
-            <div>
-                <h2>New York 🗽</h2>
-                <div class="date"></div>
+            <div class="city" id="newyork">
+                <div>
+                    <h2>New York 🗽</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
             </div>
-            <div class="time"></div>
-        </div>
-        <div class="city" id="greece">
-            <div>
-                <h2> Greece ⛱️</h2>
-                <div class="date"></div>
+            <div class="city" id="greece">
+                <div>
+                    <h2> Greece ⛱️</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
             </div>
-            <div class="time"></div>
-        </div>
-        <div class="city" id="tokyo">
-            <div>
-                <h2>Tokyo 🍥</h2>
-                <div class="date"></div>
+            <div class="city" id="tokyo">
+                <div>
+                    <h2>Tokyo 🍥</h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
             </div>
-            <div class="time"></div>
         </div>
     </div>
-    <footer>This project is coded by <strong>Isaboe Hollis</strong> 😼 and <a href="https://github.com/theartistboe/World-Clock"
-            target="_blank"> open sourced on GitHub</a>
+    <footer>This project is coded by <strong>Isaboe Hollis</strong> 😼 and <a
+            href="https://github.com/theartistboe/World-Clock" target="_blank"> open sourced on GitHub</a>
     </footer>
     <script src="javascript/index.js"></script>
 </body>
